@@ -31,4 +31,9 @@ How do the diagrams help you visualize the branch structure?
 - i diagrammi mi permettono di capire qual'è la struttura del repositori e dove
 e come i vari branch divergono dalla struttura principale.
 
-test
+What is the result of merging two branches together? Why do we represent it
+in the diagram the way we do?
+
+- il risultato è un nuovo commit che ha due commit genitori. il diagramma si
+unisce nel nuovo commit. in questo modo si può tenere traccia dei commit di
+entrambi i branch.
