@@ -37,3 +37,9 @@ in the diagram the way we do?
 - il risultato è un nuovo commit che ha due commit genitori. il diagramma si
 unisce nel nuovo commit. in questo modo si può tenere traccia dei commit di
 entrambi i branch.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+- fare il merge automatico è molto veloce ma può comportare l'inserimento di
+codice non voluto. il merge manuale è più lento ma sicuramente più preciso.
