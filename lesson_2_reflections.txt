@@ -1,0 +1,14 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+- viene creata una cartella di file nascosti e da quel momento in poi tutta
+la directory viene tracciata. Serve farlo perchè cosi si può tener traccia di
+tutta la storia dei file in quella directory e usare il software di version
+control.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+- la stagin area è una sorta di zona franca in cui è possibile preparare i file
+per il commit. la working directory è dove si fanno i cambiamenti, ma poi si
+può scegliere di eseguire diversi commit per cui i file li si può aggiungere
+alla staging area in diversi gruppi.

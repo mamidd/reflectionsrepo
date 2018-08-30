@@ -1,0 +1,48 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+- confrontando le righe eliminate da quelle inserite si possono analizzare tutte
+le singole modifiche e capire dov'è il problema.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+- capendo la storia di un file si può risalire a versioni funzionanti o
+semplicemente si può recupare del vecchio codice rendendo inutile l'uso dei
+commenti.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+- i pro sono che puoi decidere esattamente cosa inserire in una versione di un
+file e cosa no. i contro sono che potresti accidentalmente perdere gli ultimi
+cambiamenti soprattutto se dovessi lavorare in localhost e fai diverse "prove" e
+diverse modifiche prima di una commit. Inoltre i contro sono che si rischiano di
+fare commit troppo grandi o troppi piccoli.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+- penso che in un software di version control sia fondamentale accorpare più
+file insieme nello stesso commit cosi di dare modo di capire l'entità di tutta
+la modifica e le relazioni tra le modifiche nei vari files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+- git log mostra tutta la storia del repository e se aggiungo il parametro
+--stat posso vedere subito quali file sono coinvolti e qual'è l'entità della
+modifica. git diff invece aiuta a capire esattamente qual'è la differenza
+tra i file di due commit diversi.
+
+How might using version control make you more confident to make changes that
+could break something?
+
+- Il software di version control mi permette di poter tornare ad uno stato del
+software passato in qualsiasi momento sia per sistemare l'introduzione accidentale
+di bug, sia per fare spike o chore.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+- vorrei usare git per gestire interamente il mio progetto di sviluppo e
+magari anche come linea di comando principale.
