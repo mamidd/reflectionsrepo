@@ -1,4 +1,21 @@
 When would you want to use a remote repository rather than keeping all your work local?
 
-- io userei il repository remoto per condividere con altre persone il mio lavoro, inoltre per avere un backup 
+- io userei il repository remoto per condividere con altre persone il mio lavoro, inoltre per avere un backup
 sempre disponibile di tutto il mio lavoro e per evitare di rischiare di perdere quello che ho già fatto.
+
+Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+- perchè ci potrebbe essere del codice sensibile o non testato che non voglio
+mandare ancora online, oppure ci può essere del codice che può funzionare solo
+in locale per cui voglio avere il massimo controllo di cosa condividere e quando.
+
+Describe the differences between forks, clones, and branches. When would you use
+ one instead of another?
+
+- fork consiste nel copiare il repository di github di qualcun altro. Potrei farlo
+quando non ho il permesso di modificarlo. Clone consiste nel copiare due repository.
+In generale si usa per copiare due repository locali o per copiare un repo remoto
+in locale. I branch sono delle etichette assegnate ad un commit. Potrei creare
+un nuovo branch quando ho bisogno di switchare contesto, oppure creare uno spike,
+oppure fare dei test o creare una versione diversa del software originale.
