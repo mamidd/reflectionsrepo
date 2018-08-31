@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+- io userei il repository remoto per condividere con altre persone il mio lavoro, inoltre per avere un backup 
+sempre disponibile di tutto il mio lavoro e per evitare di rischiare di perdere quello che ho già fatto.
