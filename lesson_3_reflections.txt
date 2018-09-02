@@ -24,3 +24,18 @@ What is the benefit of having a copy of the last known state of the remote store
 
 - conoscere localmente l'ultimo stato di un branch remoto permette di capire
 situazioni di conflitto e come gestirle.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+- senza git e github sarebbe più difficile collaborare. Bisognerebbe trovare
+un sistema per tenere aggiornati i file su cui si lavora con il team e trovare
+un modo di tracciare i cambiamenti. git offre un attioma soluzione per il
+version controling dei files, mentre github offre ottime funzionalità per la
+condivisione dei file e la collaborazione su un progetto.
+
+When would you want to make changes in a separate branch rather than directly in master?
+What benefits does each approach have?
+
+- fare dei cambiamenti su un branch permette ad esempio di aprire delle pull request
+che altri possono valutare e validare. E' possibile cosi chiedere una validazione
+del codice prima di modificare il master.
