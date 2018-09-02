@@ -19,3 +19,8 @@ In generale si usa per copiare due repository locali o per copiare un repo remot
 in locale. I branch sono delle etichette assegnate ad un commit. Potrei creare
 un nuovo branch quando ho bisogno di switchare contesto, oppure creare uno spike,
 oppure fare dei test o creare una versione diversa del software originale.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+- conoscere localmente l'ultimo stato di un branch remoto permette di capire
+situazioni di conflitto e come gestirle.
